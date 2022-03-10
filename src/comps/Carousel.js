@@ -18,6 +18,7 @@ export default function Carousel() {
   }, [docs])
   return (
     <>
+      <h1>Carousel</h1>
       {images && (
         <ImageGallery
           slideDuration={300}

@@ -20,7 +20,8 @@ const UploadForm = () => {
   };
 
   return (
-    <form>
+    <form style={{marginTop: "150px"}}>
+      <h1>Add images</h1>
       <label>
         <input type="file" onChange={handleChange} />
         <span>+</span>
