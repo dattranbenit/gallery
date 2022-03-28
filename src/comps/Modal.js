@@ -8,7 +8,6 @@ const Modal = ({ setSelectedImg, selectedImg }) => {
       setSelectedImg(null);
     }
   }
-
   return (
     <motion.div className="backdrop" onClick={handleClick}
       initial={{ opacity: 0 }}
